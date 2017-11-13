@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10CD3D3AE7CF6CF284A3FBB8 /* Pods_NExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FCE0DDE879E61719389F14 /* Pods_NExampleApp.framework */; };
 		8D3F6BF21FBA1BE900DDF0AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F6BF11FBA1BE900DDF0AC /* AppDelegate.m */; };
 		8D3F6BF51FBA1BE900DDF0AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F6BF41FBA1BE900DDF0AC /* ViewController.m */; };
 		8D3F6BF81FBA1BE900DDF0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F6BF61FBA1BE900DDF0AC /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41FCE0DDE879E61719389F14 /* Pods_NExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3F6BED1FBA1BE900DDF0AC /* NExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3F6BF01FBA1BE900DDF0AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D3F6BF11FBA1BE900DDF0AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		8D3F6BFC1FBA1BE900DDF0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D3F6BFE1FBA1BE900DDF0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3F6BFF1FBA1BE900DDF0AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		994F227E86897A82B4387CF9 /* Pods-NExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NExampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NExampleApp/Pods-NExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		E7A052825CAAB5B1BEB78535 /* Pods-NExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NExampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NExampleApp/Pods-NExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CD3D3AE7CF6CF284A3FBB8 /* Pods_NExampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DE399C1E19D8147F8C5C84A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41FCE0DDE879E61719389F14 /* Pods_NExampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3D32C17D350CEC2819B3BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7A052825CAAB5B1BEB78535 /* Pods-NExampleApp.debug.xcconfig */,
+				994F227E86897A82B4387CF9 /* Pods-NExampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8D3F6BE41FBA1BE900DDF0AC = {
 			isa = PBXGroup;
 			children = (
 				8D3F6BEF1FBA1BE900DDF0AC /* NExampleApp */,
 				8D3F6BEE1FBA1BE900DDF0AC /* Products */,
+				5D3D32C17D350CEC2819B3BC /* Pods */,
+				2DE399C1E19D8147F8C5C84A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D3F6C031FBA1BE900DDF0AC /* Build configuration list for PBXNativeTarget "NExampleApp" */;
 			buildPhases = (
+				1752C007C20A3BC6E0AAD80F /* [CP] Check Pods Manifest.lock */,
 				8D3F6BE91FBA1BE900DDF0AC /* Sources */,
 				8D3F6BEA1FBA1BE900DDF0AC /* Frameworks */,
 				8D3F6BEB1FBA1BE900DDF0AC /* Resources */,
+				031798B246EA2659D6D7FD03 /* [CP] Embed Pods Frameworks */,
+				3DBC0AE38D181228389EF171 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031798B246EA2659D6D7FD03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NExampleApp/Pods-NExampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1752C007C20A3BC6E0AAD80F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NExampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DBC0AE38D181228389EF171 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NExampleApp/Pods-NExampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D3F6BE91FBA1BE900DDF0AC /* Sources */ = {
@@ -276,6 +354,7 @@
 		};
 		8D3F6C041FBA1BE900DDF0AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A052825CAAB5B1BEB78535 /* Pods-NExampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +368,7 @@
 		};
 		8D3F6C051FBA1BE900DDF0AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994F227E86897A82B4387CF9 /* Pods-NExampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_NExampleApp {
+  umbrella header "Pods-NExampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
