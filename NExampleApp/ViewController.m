@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <NFrameWork/NFrameWork.h>
+#import <NFrameWork/NConfig.h>
 
 @interface ViewController ()
 
