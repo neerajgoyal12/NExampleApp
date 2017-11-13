@@ -18,31 +18,19 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NCore/Classes/**/*",
+  "source_files": "NFrameWork/*.{h,m}",
+  "dependencies": {
+    "NCore": [
+
+    ]
+  },
   "frameworks": [
-    "Foundation",
-    "SystemConfiguration",
     "CoreText",
-    "QuartzCore",
-    "Security",
-    "UIKit",
-    "CoreGraphics",
     "CoreTelephony"
   ],
   "libraries": [
     "c++",
     "sqlite3",
     "z"
-  ],
-  "dependencies": {
-    "CardIO": [
-
-    ],
-    "GoogleAnalytics": [
-
-    ],
-    "AppsFlyerFramework": [
-
-    ]
-  }
+  ]
 }

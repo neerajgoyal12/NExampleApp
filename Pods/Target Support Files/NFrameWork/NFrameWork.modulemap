@@ -1,0 +1,6 @@
+framework module NFrameWork {
+  umbrella header "NFrameWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

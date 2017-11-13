@@ -1,4 +1,7 @@
 # Uncomment the next line to define a global platform for your project
+source 'https://github.com/neerajgoyal12/NCore.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '8.0'
 
 target 'NExampleApp' do
@@ -8,3 +11,4 @@ target 'NExampleApp' do
   # Pods for NExampleApp
   pod 'NFrameWork', :path => '/Users/systology/Documents/Projects/new-begning/swift/NFrameWork'
 end
+
