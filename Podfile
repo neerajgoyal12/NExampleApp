@@ -6,5 +6,5 @@ target 'NExampleApp' do
   use_frameworks!
 
   # Pods for NExampleApp
-
+  pod 'NFrameWork', :path => '/Users/systology/Documents/Projects/new-begning/swift/NFrameWork'
 end

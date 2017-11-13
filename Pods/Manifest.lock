@@ -1,3 +1,25 @@
-PODFILE CHECKSUM: 370b8b2e877dbfa2d1749e56cf5ee50730d9c050
+PODS:
+  - AppsFlyerFramework (4.8.1)
+  - CardIO (5.4.1)
+  - GoogleAnalytics (3.17.0)
+  - NFrameWork (0.1.0):
+    - AppsFlyerFramework
+    - CardIO
+    - GoogleAnalytics
+
+DEPENDENCIES:
+  - NFrameWork (from `/Users/systology/Documents/Projects/new-begning/swift/NFrameWork`)
+
+EXTERNAL SOURCES:
+  NFrameWork:
+    :path: /Users/systology/Documents/Projects/new-begning/swift/NFrameWork
+
+SPEC CHECKSUMS:
+  AppsFlyerFramework: 4f6fe2b018e1c2ca4f390652f3548a8ee799a610
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  NFrameWork: 96874b522d76ae9f49fdce33bd83160f02784dd0
+
+PODFILE CHECKSUM: 4c425f4ab6e80a2f0c2c48d2e056f7c62f5ac7ee
 
 COCOAPODS: 1.4.0.beta.2

@@ -13,18 +13,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035AB4D87924D02CE7B4F46E597EA343 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Sources/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
 		3161F7FA08D851AF4DD46F7A8F6130C7 /* Pods-NExampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NExampleApp-frameworks.sh"; sourceTree = "<group>"; };
 		322F26B73056C2A2E6C34158DEBC5B44 /* Pods-NExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		3236CF9CBD8AC5413BC20A466D7E58FC /* libopencv_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_core.a; path = CardIO/libopencv_core.a; sourceTree = "<group>"; };
+		3660E4EAA0288F9C30DFF73BD9825B35 /* libopencv_imgproc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = CardIO/libopencv_imgproc.a; sourceTree = "<group>"; };
 		3E0B9F90A0164B873F31AC500E5A27D6 /* Pods-NExampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NExampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CD8F0CF1D55C99C7A3064B27A908A45 /* Pods-NExampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NExampleApp-umbrella.h"; sourceTree = "<group>"; };
+		55B2345B20DCC1C0A7F630AEB0EC77C4 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Sources/GAITracker.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		668618B7D44F03C67B4F8F3F2580B8B4 /* Pods-NExampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NExampleApp-dummy.m"; sourceTree = "<group>"; };
+		69F7239F9437E30FF2CA8B7D2F0D0AC9 /* CardIOUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOUtilities.h; path = CardIO/CardIOUtilities.h; sourceTree = "<group>"; };
+		735C346B778EB99C87AE8BF0091D23E6 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Sources/GAIEcommerceProduct.h; sourceTree = "<group>"; };
 		787B4D6DAAC23D0800E0F0D03C4325F2 /* Pods-NExampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NExampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85CE8F7020712526EF68F1FE993778D2 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
+		86676602F654F9C04E1CF167DA8C8035 /* libCardIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardIO.a; path = CardIO/libCardIO.a; sourceTree = "<group>"; };
+		8C35977B664B2CAE5921D9D1FF49F9BF /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Sources/GAIFields.h; sourceTree = "<group>"; };
+		93A21B3350288FA3C2E3E006B9F6B6C5 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Sources/GAIEcommerceFields.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A59F32E3C7AA15D0E33ACCC058D777F2 /* Pods-NExampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NExampleApp.modulemap"; sourceTree = "<group>"; };
+		A622A7FB0758A61F1AF5D6CB048E17AE /* CardIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = CardIO/CardIO.h; sourceTree = "<group>"; };
 		ADB6C38F8C9B04B3ED8BC6ECB639A327 /* Pods-NExampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NExampleApp-resources.sh"; sourceTree = "<group>"; };
 		AED83F4F69416B4BDFC0532D626BE509 /* Pods-NExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BA81F30B7A8D7E004A96D8942C7A794F /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOCreditCardInfo.h; path = CardIO/CardIOCreditCardInfo.h; sourceTree = "<group>"; };
 		C28884DC1C82BB0EB8DA12603A105BC7 /* Pods_NExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NExampleApp.framework; path = "Pods-NExampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41634174FEBFBDBAD71AB24AE830ACD /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Sources/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		CE0AC568C326E75788FA778213193DFC /* CardIOViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOViewDelegate.h; path = CardIO/CardIOViewDelegate.h; sourceTree = "<group>"; };
+		D71E06784DEF3955DB89CED372DF8DEB /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewControllerDelegate.h; path = CardIO/CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		DAE64A8701A61F5484584678C99BCEB9 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOPaymentViewController.h; path = CardIO/CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		DB13CFF5F68EAAFC4AA0CC34DEC02854 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		DB425EF2C3511876EAB30DEFCBBC700D /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Sources/GAILogger.h; sourceTree = "<group>"; };
+		DD9FCE80FD6F72D831F99CD623811BD7 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Sources/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		DFB6393BA795A788AA87C85A6068E6CB /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Sources/GAITrackedViewController.h; sourceTree = "<group>"; };
+		F27606716FD0DEB52E21038AF8FC7E60 /* CardIOView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIOView.h; path = CardIO/CardIOView.h; sourceTree = "<group>"; };
+		F49A827A9AF6D829490A17D529A1802D /* CardIODetectionMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CardIODetectionMode.h; path = CardIO/CardIODetectionMode.h; sourceTree = "<group>"; };
+		FEA1D1EEF7CBE01DCB98C354F1E0890F /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Sources/GAI.h; sourceTree = "<group>"; };
 		FF669B34A21287C19687B7C18EACD63D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +63,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45AFDD9E010A73BC1FC90AA85484D17D /* NFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NFrameWork;
+			path = "/Users/systology/Documents/Projects/new-begning/swift/NFrameWork";
+			sourceTree = "<absolute>";
+		};
+		53A85DF9E6E708B9C0167BAD244BFA20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB13CFF5F68EAAFC4AA0CC34DEC02854 /* libGoogleAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5822748514F894A7502594A3E66C29DB /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				A622A7FB0758A61F1AF5D6CB048E17AE /* CardIO.h */,
+				BA81F30B7A8D7E004A96D8942C7A794F /* CardIOCreditCardInfo.h */,
+				F49A827A9AF6D829490A17D529A1802D /* CardIODetectionMode.h */,
+				DAE64A8701A61F5484584678C99BCEB9 /* CardIOPaymentViewController.h */,
+				D71E06784DEF3955DB89CED372DF8DEB /* CardIOPaymentViewControllerDelegate.h */,
+				69F7239F9437E30FF2CA8B7D2F0D0AC9 /* CardIOUtilities.h */,
+				F27606716FD0DEB52E21038AF8FC7E60 /* CardIOView.h */,
+				CE0AC568C326E75788FA778213193DFC /* CardIOViewDelegate.h */,
+				CBF2B0DC67417F66A29D073EA9546FF3 /* Frameworks */,
+			);
+			name = CardIO;
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+		65039724C2456B200A746EF222BFDBF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC26A59223A0296B7BCDAC895F56D3 /* AppsFlyerFramework */,
+				5822748514F894A7502594A3E66C29DB /* CardIO */,
+				9AA3C376EEEBA84DC64CCD15AD579B40 /* GoogleAnalytics */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6D035B065CE59C85AB0A3ABC34F6C6CC /* Pods-NExampleApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +128,20 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D7E7201486C49195E1D3D4FE27E2CD9D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				65039724C2456B200A746EF222BFDBF5 /* Pods */,
 				85FA92B1FB81FC55CA75FD3362DB9531 /* Products */,
 				BEDCC619EEE7113D036CC96C4E54CC71 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F8AF0EB0724677FBF34A9E5148ABE8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85CE8F7020712526EF68F1FE993778D2 /* AppsFlyerLib.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		85FA92B1FB81FC55CA75FD3362DB9531 /* Products */ = {
@@ -74,6 +150,25 @@
 				C28884DC1C82BB0EB8DA12603A105BC7 /* Pods_NExampleApp.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA3C376EEEBA84DC64CCD15AD579B40 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				FEA1D1EEF7CBE01DCB98C354F1E0890F /* GAI.h */,
+				DD9FCE80FD6F72D831F99CD623811BD7 /* GAIDictionaryBuilder.h */,
+				93A21B3350288FA3C2E3E006B9F6B6C5 /* GAIEcommerceFields.h */,
+				735C346B778EB99C87AE8BF0091D23E6 /* GAIEcommerceProduct.h */,
+				035AB4D87924D02CE7B4F46E597EA343 /* GAIEcommerceProductAction.h */,
+				C41634174FEBFBDBAD71AB24AE830ACD /* GAIEcommercePromotion.h */,
+				8C35977B664B2CAE5921D9D1FF49F9BF /* GAIFields.h */,
+				DB425EF2C3511876EAB30DEFCBBC700D /* GAILogger.h */,
+				DFB6393BA795A788AA87C85A6068E6CB /* GAITrackedViewController.h */,
+				55B2345B20DCC1C0A7F630AEB0EC77C4 /* GAITracker.h */,
+				53A85DF9E6E708B9C0167BAD244BFA20 /* Frameworks */,
+			);
+			name = GoogleAnalytics;
+			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -92,12 +187,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CBF2B0DC67417F66A29D073EA9546FF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86676602F654F9C04E1CF167DA8C8035 /* libCardIO.a */,
+				3236CF9CBD8AC5413BC20A466D7E58FC /* libopencv_core.a */,
+				3660E4EAA0288F9C30DFF73BD9825B35 /* libopencv_imgproc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5AC26A59223A0296B7BCDAC895F56D3 /* AppsFlyerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7F8AF0EB0724677FBF34A9E5148ABE8A /* Frameworks */,
+			);
+			name = AppsFlyerFramework;
+			path = AppsFlyerFramework;
+			sourceTree = "<group>";
+		};
+		D7E7201486C49195E1D3D4FE27E2CD9D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45AFDD9E010A73BC1FC90AA85484D17D /* NFrameWork */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
